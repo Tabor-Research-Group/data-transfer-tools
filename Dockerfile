@@ -20,5 +20,8 @@ RUN conda env create -f environment.yml
 RUN conda run -n env python -m ensurepip --upgrade
 RUN conda run -n env python -m pip install --upgrade pip setuptools wheel
 
+RUN cd /home && \
+    git clone https://github.com/Tabor-Research-Group/hpclib.git
+
 # Set the default shell to use bash and activate the conda environment
 ENTRYPOINT ["conda", "run", "--no-capture-output", "-n", "env"]
