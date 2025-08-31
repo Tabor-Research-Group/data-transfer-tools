@@ -8,18 +8,4 @@ channels:
   - openeye
 dependencies:
   - python=3.10
-  - pytorch-cuda
-  - tensorflow
-  - pathos
-  - numpy
-  - pandas
-  - scipy
-  - h5py
-  - ipykernel
-  - pip
-  - rdkit
-  - xtb
-  - crest
-  - pip:
-      - gpyopt
-      - mccoygroup-psience
+  - requests
