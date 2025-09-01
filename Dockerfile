@@ -8,7 +8,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 # Install necessary compile toolchains
 RUN apt-get update && \
     apt-get -y install git gcc g++ && \
-    apt-get -y install openssh-server smbclient && \
+    apt-get -y install openssh-server smbclient cifs-utils && \
     rm -rf /var/lib/apt/lists/*
 
 # Copy the environment.yml file into the Docker image
