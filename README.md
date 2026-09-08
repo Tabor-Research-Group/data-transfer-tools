@@ -1,4 +1,4 @@
-# singularity-demo
+# data-transfer-tools
 
 A demo container environment that can serve as an example for how to build python projects in a way that is easy to share.
 We create a [Singularity](https://docs.sylabs.io/guides/latest/user-guide/) container that is pre-built to encapsulate
